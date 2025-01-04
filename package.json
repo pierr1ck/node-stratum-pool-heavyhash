@@ -1,6 +1,6 @@
 {
     "name": "stratum-pool",
-    "version": "0.1.9",
+    "version": "2.0.0",
     "description": "High performance Stratum poolserver in Node.js",
     "keywords": [
         "stratum",
@@ -30,8 +30,8 @@
     "dependencies": {
         "base58": "https://github.com/Sandokaaan/base58-s.git",
         "multi-hashing": "https://github.com/Sandokaaan/node-multi-hashing.git",
-        "async": "*",
-        "deasync": "*"
+        "async": "3.2.6",
+        "deasync": "0.1.30"
     },
     "engines": {
         "node": ">=v22.0.0"
